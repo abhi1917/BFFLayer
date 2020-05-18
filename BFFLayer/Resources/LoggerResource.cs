@@ -7,7 +7,7 @@ namespace BFFLayer.Resources
 {
     public static class LoggerResource
     {
-        public static string LoggerName = "API logger";
+        public static string LoggerName = "MyLogger";
         public static string Method = "Method Details: ";
         public static string Url = "Url Details: ";
         public static string TransactionID = "Transaction ID Details: ";

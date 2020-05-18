@@ -27,8 +27,16 @@ namespace BFFLayer.HttpHandlers
          HttpRequestMessage request, CancellationToken cancellationToken)
         {
             request = PrepareRequest(request);
-            var resp = CustomCircuitBreaker.CircuitBreaker.ExecuteAsync(
-                   () => base.SendAsync(request, cancellationToken));
+            Task<HttpResponseMessage> resp;
+            if (CircuitBreakerResource.EnableCircuit)
+            {
+                resp = CustomCircuitBreaker.CircuitBreaker.ExecuteAsync(
+                                                           () => base.SendAsync(request, cancellationToken));
+            }
+            else
+            {
+                resp = base.SendAsync(request, cancellationToken);
+            }
             resp.Wait();
             return resp.Result;
         }

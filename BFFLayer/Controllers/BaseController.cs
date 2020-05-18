@@ -44,9 +44,11 @@ namespace BFFLayer.Controllers
         }
 
 
-        protected void AddRequest(string apiPath,Dictionary<string, string> headers, Dictionary<string, string> body,TimeSpan timeout)
+        protected void AddResource(string apiPath,Dictionary<string, string> headers, Dictionary<string, string> body,TimeSpan timeout)
         {
             _headers = headers;
+            _headers.Add(ApiResource.TransactionId, Request.Headers.GetValues(ApiResource.TransactionId).FirstOrDefault());
+            _headers.Add(ApiResource.AgentId, Request.Headers.GetValues(ApiResource.AgentId).FirstOrDefault());
             _body = body;
             _apiPath = apiPath;
             _timeout = timeout;

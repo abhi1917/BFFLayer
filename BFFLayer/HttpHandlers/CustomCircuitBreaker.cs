@@ -16,6 +16,8 @@ namespace BFFLayer.HttpHandlers
         public static AsyncRetryPolicy<HttpResponseMessage> CircuitBreaker= Policy
                                                                             .Handle<Exception>()
                                                                             .OrResult<HttpResponseMessage>(r => !r.IsSuccessStatusCode)
-                                                                            .RetryAsync(CircuitBreakerResource.RetryCount);
+                                                                            .RetryAsync(CircuitBreakerResource.RetryCount, (ex, retryCnt) => {
+                                                                                Debug.WriteLine(retryCnt);
+                                                                            });
     }
 }

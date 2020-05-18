@@ -1,6 +1,8 @@
-﻿using BFFLayer.Resources;
+﻿using BFFLayer.Models;
+using BFFLayer.Resources;
 using log4net;
 using Microsoft.ApplicationInsights;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -24,6 +26,18 @@ namespace BFFLayer.Utilities
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
             _start = DateTime.Now;
+            LogModel logDetails = new LogModel();
+            logDetails.ApplicationIdentifier = "test";
+            logDetails.ClassName = actionContext.ControllerContext.Controller.ToString();
+            logDetails.MethodName = actionContext.ActionDescriptor.ActionName.ToString();
+            logDetails.Environment = ConfigurationManager.AppSettings["Environment"].ToString();
+            logDetails.Host = "Host";
+            logDetails.LogMessage = "message";
+            logDetails.Priority = Priority.INFO.ToString();
+            logDetails.TimeStamp = DateTime.Now;
+            logDetails.TransactionId = actionContext.Request.Headers.GetValues(ApiResource.TransactionId).FirstOrDefault();
+            logDetails.UserId = actionContext.Request.Headers.GetValues(ApiResource.AgentId).FirstOrDefault();
+            _logger.Info(JsonConvert.SerializeObject(logDetails));
             _logger.Info(LoggerResource.TransactionID+actionContext.Request.Headers.GetValues(ApiResource.TransactionId).FirstOrDefault() + LoggerResource.Method + actionContext.Request.Method + LoggerResource.Url+ actionContext.Request.RequestUri + LoggerResource.TimeStart+ DateTime.Now);
             base.OnActionExecuting(actionContext);
         }

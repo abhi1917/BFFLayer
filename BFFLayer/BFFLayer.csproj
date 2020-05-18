@@ -228,6 +228,7 @@
     <Compile Include="HttpHandlers\CustomCircuitBreaker.cs" />
     <Compile Include="Models\BaseLead.cs" />
     <Compile Include="Models\Lead.cs" />
+    <Compile Include="Models\LogModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\ApiResource.cs" />
     <Compile Include="Resources\AppInsightsResource.cs" />
