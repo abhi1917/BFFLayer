@@ -1,0 +1,3 @@
+2020-05-19 03:32:09,361 [5] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-19T03:32:09.1283153+00:00","Priority":"INFO","TransactionId":"test12345678","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"test","UserId":"ServiceBus","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-19 03:32:09,409 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345678Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/19/2020 3:32:09 AM
+2020-05-19 03:32:39,435 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345678Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Responded at 5/19/2020 3:32:39 AM

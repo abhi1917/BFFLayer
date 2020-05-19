@@ -25,5 +25,6 @@ namespace BFFLayer.Resources
         public static string AgentId = "agentID";
         public static string TransactionIdMissingMessage = "TransactionID or AgentID missing in the request!";
         public static string ErrorMessage = "For TransactionId: ";
+        public static string AppName = "BFFLayer";
     }
 }

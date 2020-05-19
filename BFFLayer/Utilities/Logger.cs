@@ -27,11 +27,11 @@ namespace BFFLayer.Utilities
         {
             _start = DateTime.Now;
             LogModel logDetails = new LogModel();
-            logDetails.ApplicationIdentifier = "test";
+            logDetails.ApplicationIdentifier = ApiResource.AppName;
             logDetails.ClassName = actionContext.ControllerContext.Controller.ToString();
             logDetails.MethodName = actionContext.ActionDescriptor.ActionName.ToString();
             logDetails.Environment = ConfigurationManager.AppSettings["Environment"].ToString();
-            logDetails.Host = "Host";
+            logDetails.Host = Environment.MachineName;
             logDetails.LogMessage = "message";
             logDetails.Priority = Priority.INFO.ToString();
             logDetails.TimeStamp = DateTime.Now;
