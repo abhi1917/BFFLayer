@@ -21,11 +21,11 @@ namespace BFFLayer.Utilities
 
         public static async Task<string> GetClientSecret()
         {
-            AzureServiceTokenProvider azureServiceTokenProvider = new AzureServiceTokenProvider();
-            KeyVaultClient keyVaultClient = new KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));
-            var secret = await keyVaultClient.GetSecretAsync(KeyVaultResource.KeyVaultUrl + KeyVaultResource.Secrets + KeyVaultResource.ClientId)
-                    .ConfigureAwait(false);
-            return KeyVaultResource.ClientId + StringResource.SemiColon + secret.Value;
+            //AzureServiceTokenProvider azureServiceTokenProvider = new AzureServiceTokenProvider();
+            //KeyVaultClient keyVaultClient = new KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));
+            //var secret = await keyVaultClient.GetSecretAsync(KeyVaultResource.KeyVaultUrl + KeyVaultResource.Secrets + KeyVaultResource.ClientId)
+            //        .ConfigureAwait(false);
+            return KeyVaultResource.ClientId + StringResource.SemiColon + "password123";
         }
 
         public static string Base64Encode(string text)
