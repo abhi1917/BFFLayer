@@ -9,7 +9,7 @@ namespace BFFLayer.Resources
     {
         public static string LeadDetails = "/MockLead";
         public static string GetToken = "/TokenUrl";
-        public static int TimeOutSeconds = 2;
+        public static int TimeOutSeconds = 4;
         public static string BodyTypeJson = "application/json";
         public static string BodyTypeText = "application/text";
         public static string GrantTypeKey = "grant_type";

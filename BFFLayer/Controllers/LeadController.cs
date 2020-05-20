@@ -21,8 +21,8 @@ namespace BFFLayer.Controllers
             HttpResponseMessage response = new HttpResponseMessage();
             try
             {
-                AddResource(ApiResource.LeadDetails, HttpUtility.GetLeadCallHeaders(), null, TimeSpan.FromSeconds(ApiResource.TimeOutSeconds));
-                var resp = Get().Result;
+                AddResource(UrlResource.ApiBaseUrl + ApiResource.LeadDetails, HttpUtility.GetLeadCallHeaders(), null, TimeSpan.FromSeconds(ApiResource.TimeOutSeconds));
+                var resp = Get();
                 if (resp.StatusCode == HttpStatusCode.OK)
                 {
                     var body = resp.Content.ReadAsStringAsync().Result;

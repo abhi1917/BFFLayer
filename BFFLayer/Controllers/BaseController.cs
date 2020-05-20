@@ -25,13 +25,13 @@ namespace BFFLayer.Controllers
         private string _apiPath { get; set; }
         private TimeSpan _timeout { get; set; }
 
-        public async Task<HttpResponseMessage> Get()
+        public HttpResponseMessage Get()
         {
             try
             {
                 HttpClient client = new HttpClient(new HttpCallHandler(_headers, _body));
                 client.Timeout = _timeout;
-                return await client.GetAsync(UrlResource.ApiBaseUrl + _apiPath);
+                return client.GetAsync(_apiPath).Result;
             }
             catch (Exception ex)
             {

@@ -37,7 +37,7 @@ namespace BFFLayer.HttpHandlers
             {
                 resp = base.SendAsync(request, cancellationToken);
             }
-            resp.Wait();
+            //resp.Wait();
             return resp.Result;
         }
 
