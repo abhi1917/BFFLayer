@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<nhv-mapping xmlns="urn:nhibernate-validator-1.0"
+                        namespace="BFFLayer.Models"
+                        assembly="BFFLayer">
+  <class name="InputLead">
+    <property name="LeadID">
+      <notnull-notempty message="The phone number is mandatory"/>
+      <pattern regex="^[0-9]{1,3}-[0-9]{1,7}$" message="LeadID should have the format of [Upto 3 digits]-[Upto 7 digits]"/>
+    </property>
+  </class>
+</nhv-mapping>

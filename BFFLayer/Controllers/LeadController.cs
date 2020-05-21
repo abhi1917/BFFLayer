@@ -16,6 +16,7 @@ namespace BFFLayer.Controllers
     {
         [Route("api/Lead/{leadID}")]
         [HttpGet]
+        [LeadRequestValidator]
         public HttpResponseMessage Get(string leadID)
         {
             HttpResponseMessage response = new HttpResponseMessage();

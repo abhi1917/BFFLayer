@@ -92,3 +92,133 @@
 2020-05-21 05:10:49,357 [11] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T05:10:48.9246102+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
 2020-05-21 05:10:49,557 [11] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 5:10:49 AM
 2020-05-21 05:10:54,189 [11] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Responded at 5/21/2020 5:10:54 AM
+2020-05-21 08:29:08,620 [10] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:29:08.3224029+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:29:08,782 [10] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 8:29:08 AM
+2020-05-21 08:30:55,234 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:30:57,933 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:30:57,946 [10] WARN  NHibernate.Validator.Engine.JITClassMappingFactory [(null)] - External definition not foud for class BFFLayer.Models.InputLead in ValidatorMode.UseExternal mode.
+2020-05-21 08:30:57,950 [10] WARN  NHibernate.Validator.Engine.ClassValidator [(null)] - Validator not found in mode UseExternal for class BFFLayer.Models.InputLead, BFFLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-05-21 08:36:13,834 [6] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:36:13.5254209+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:36:13,941 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 8:36:13 AM
+2020-05-21 08:36:38,135 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:36:51,238 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:36:51,249 [6] WARN  NHibernate.Validator.Engine.JITClassMappingFactory [(null)] - External definition not foud for class BFFLayer.Models.InputLead in ValidatorMode.UseExternal mode.
+2020-05-21 08:36:51,252 [6] WARN  NHibernate.Validator.Engine.ClassValidator [(null)] - Validator not found in mode UseExternal for class BFFLayer.Models.InputLead, BFFLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-05-21 08:38:34,888 [7] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:38:34.5994478+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:38:35,077 [7] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 8:38:35 AM
+2020-05-21 08:39:19,263 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:39:22,239 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:39:22,244 [7] WARN  NHibernate.Validator.Engine.JITClassMappingFactory [(null)] - External definition not foud for class BFFLayer.Models.InputLead in ValidatorMode.UseExternal mode.
+2020-05-21 08:39:22,245 [7] WARN  NHibernate.Validator.Engine.ClassValidator [(null)] - Validator not found in mode UseExternal for class BFFLayer.Models.InputLead, BFFLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-05-21 08:43:20,198 [5] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:43:19.9397961+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:43:20,326 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 8:43:20 AM
+2020-05-21 08:44:06,640 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:49:37,854 [5] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:49:37.5968864+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:49:38,025 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Requested at 5/21/2020 8:49:38 AM
+2020-05-21 08:49:57,357 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:49:57,365 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:49:57,782 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:49:57,787 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:49:57,789 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:49:57,793 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:49:57,794 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:49:57,805 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:49:57,807 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:49:59,788 [5] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-21 08:49:59,796 [5] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-21 08:49:59,799 [5] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-21 08:49:59,802 [5] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-21 08:49:59,807 [5] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-21 08:50:14,697 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123Responded at 5/21/2020 8:50:14 AM
+2020-05-21 08:50:27,947 [5] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:50:27.9479959+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:50:28,028 [5] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-1234Requested at 5/21/2020 8:50:28 AM
+2020-05-21 08:50:42,197 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:50:42,200 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:50:42,204 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:50:42,206 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:50:42,214 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:50:42,217 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:50:42,219 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:50:42,221 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:50:42,229 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:52:11,381 [6] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:52:11.0279616+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:52:11,497 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-1234Requested at 5/21/2020 8:52:11 AM
+2020-05-21 08:52:22,994 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:52:23,010 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:52:23,461 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:52:23,468 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:52:23,470 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:52:23,473 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:52:23,475 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:52:23,487 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:52:23,490 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:52:25,663 [6] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-21 08:52:25,690 [6] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-21 08:52:25,698 [6] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-21 08:52:25,709 [6] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-21 08:52:25,716 [6] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-21 08:52:36,030 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-1234Responded at 5/21/2020 8:52:36 AM
+2020-05-21 08:52:49,926 [9] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:52:49.926115+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:52:49,930 [9] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/12a-1234Requested at 5/21/2020 8:52:49 AM
+2020-05-21 08:53:04,254 [9] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:53:04,279 [9] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:53:04,283 [9] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:53:04,346 [9] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:53:04,351 [9] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:53:04,353 [9] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:53:04,354 [9] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:53:04,356 [9] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:53:04,358 [9] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:53:10,016 [9] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/12a-1234Responded at 5/21/2020 8:53:10 AM
+2020-05-21 08:53:26,371 [6] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:53:26.3719739+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:53:26,381 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-123456789Requested at 5/21/2020 8:53:26 AM
+2020-05-21 08:53:36,317 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:53:36,335 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:53:36,338 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:53:36,340 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:53:36,342 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:53:36,347 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:53:36,352 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:53:36,354 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:53:36,356 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:54:41,718 [7] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:54:41.5231156+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:54:41,849 [7] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-123456789Requested at 5/21/2020 8:54:41 AM
+2020-05-21 08:54:54,886 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:54:54,892 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:54:55,325 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:54:55,331 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:54:55,335 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:54:55,338 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:54:55,340 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:54:55,352 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:54:55,355 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:54:55,992 [7] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-21 08:54:55,996 [7] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-21 08:54:55,999 [7] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-21 08:54:56,001 [7] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-21 08:54:56,003 [7] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-21 08:55:09,463 [7] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-123456789Responded at 5/21/2020 8:55:09 AM
+2020-05-21 08:55:15,219 [6] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:55:15.2197843+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:55:15,267 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-1234567Requested at 5/21/2020 8:55:15 AM
+2020-05-21 08:55:20,174 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:55:20,181 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:55:20,185 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:55:20,186 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:55:20,188 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:55:20,189 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:55:20,191 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:55:20,200 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:55:20,203 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:55:27,316 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-1234567Responded at 5/21/2020 8:55:27 AM
+2020-05-21 08:55:38,487 [6] INFO  MyLogger [(null)] - {"TimeStamp":"2020-05-21T08:55:38.4871468+00:00","Priority":"INFO","TransactionId":"test12345679","Environment":"Dev","Host":"webapiVM","ApplicationIdentifier":"BFFLayer","UserId":"AgentID","ClassName":"BFFLayer.Controllers.LeadController","MethodName":"Get","LogMessage":"message"}
+2020-05-21 08:55:38,489 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-123456aRequested at 5/21/2020 8:55:38 AM
+2020-05-21 08:55:42,496 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: BFFLayer
+2020-05-21 08:55:42,504 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: BFFLayer.Models.InputLead.nhv.xml
+2020-05-21 08:55:42,506 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LeadID
+2020-05-21 08:55:42,507 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-21 08:55:42,518 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:55:42,520 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-21 08:55:42,531 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:55:42,533 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-21 08:55:42,535 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LeadID to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-21 08:55:42,840 [6] INFO  MyLogger [(null)] - Transaction ID Details: test12345679Method Details: GETUrl Details: http://localhost:50106/api/Lead/123-123456aResponded at 5/21/2020 8:55:42 AM
